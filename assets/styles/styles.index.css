@@ -14,4 +14,29 @@ body {
 header {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
+    height: 150px;
+    background-color: #b0152c;
+    color: #f8f8f8;
+    align-items: center;
+
+}
+
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#links a {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 1.2rem;
 }
