@@ -48,3 +48,38 @@ header {
     color:#ff4444;
     transform: scale(1.1);
 }
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #ececec;
+}
+
+#carousel img {
+    height:100% ;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+#main-new {
+    width: 70%;
+    background-color: #ad021bcc;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#aside {
+width: 28%;
+background-color: #eeff004a;
+margin: 20px;
+padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
