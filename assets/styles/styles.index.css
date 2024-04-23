@@ -14,7 +14,6 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
     height: 150px;
     background-color: #b0152c;
     color: #f8f8f8;
@@ -47,5 +46,5 @@ header {
 #links a:hover {
     border-bottom: 3px solid #e6e6e6;
     color:#ff4444;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
